@@ -11,15 +11,21 @@ class Main {
     public static void main(String args[]) throws IOException {
     	// pretty print
         Visitor<String> tp = new TreePrinter();
+		Visitor<Tree> ts = new TreeSimplifier();
     	System.out.println("############## Program Squares: ##############");
     	System.out.println(Programs.squares.accept(tp));
     	System.out.println("############## Program Collatz: ##############");
     	System.out.println(Programs.collatz.accept(tp));
+
     	System.out.println("############## Program Sums: ##############");
     	System.out.println(Programs.sums.accept(tp));
     	System.out.println("############## Program Sums After Simplification: ##############");
-    	Visitor<Tree> ts = new TreeSimplifier();
     	System.out.println(Programs.sums.accept(ts).accept(tp));
+
+		System.out.println("############## Program Nested: ##############");
+		System.out.println(Programs.nested.accept(tp));
+		System.out.println("############## Program Nested After Simplification: ##############");
+		System.out.println(Programs.nested.accept(ts).accept(tp));
     	// interpret
     	Visitor<Integer> ip = new Interpreter();
     	Programs.squares.accept(ip);

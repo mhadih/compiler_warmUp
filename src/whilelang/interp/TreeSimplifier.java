@@ -7,7 +7,6 @@ public class TreeSimplifier implements Visitor<Tree> {
 
 
     public Tree visit(Print n) {
-        // TODO Implement this!
         return n;
     }
 
