@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e2c6d61-3f73-4553-a1d8-a59f82646f01" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/whilelang/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/And.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/And.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/Assign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/Assign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/BinaryExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/BinaryExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/Block.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/Equals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/Equals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/For.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/For.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/GreaterThan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/GreaterThan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/IfThenElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/IfThenElse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/IntLiteral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/IntLiteral.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/LessThan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/LessThan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/Minus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/Minus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/Modulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/Modulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/Neg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/Neg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/Not.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/Not.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/Or.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/Or.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/Plus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/Plus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/Print.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/SingleStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/SingleStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/Skip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/Skip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/Statement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/Times.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/Times.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/TreePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/TreePrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/UnaryExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/UnaryExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/Var.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/Var.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/ast/While.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/ast/While.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/interp/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/interp/Interpreter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/interp/TreeSimplifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/interp/TreeSimplifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whilelang/progs/Programs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/progs/Programs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/interp/TreeSimplifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/interp/TreeSimplifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/whilelang/interp/TreeSimplifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/interp/TreeSimplifier.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/whilelang/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,29 +29,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/whilelang/ast/TreePrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="134" column="35" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="35" />
+            <state relative-caret-position="1230">
+              <caret line="122" column="32" lean-forward="true" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/whilelang/interp/TreeSimplifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="180">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1310#1311#0" expanded="true" />
+                <element signature="e#1334#1335#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/whilelang/ast/Tree.java">
+        <entry file="file://$PROJECT_DIR$/src/whilelang/ast/For.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="75">
+              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/whilelang/ast/SingleStatement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="49" lean-forward="true" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/whilelang/progs/Programs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,17 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/whilelang/ast/While.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/whilelang/ast/IfThenElse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -117,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/src/whilelang/ast/Block.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -126,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/src/whilelang/ast/Statement.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -152,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/whilelang/ast/For.java" />
         <option value="$PROJECT_DIR$/src/whilelang/ast/TreePrinter.java" />
         <option value="$PROJECT_DIR$/src/whilelang/interp/Interpreter.java" />
+        <option value="$PROJECT_DIR$/src/whilelang/ast/IfThenElse.java" />
         <option value="$PROJECT_DIR$/src/whilelang/interp/TreeSimplifier.java" />
       </list>
     </option>
@@ -217,7 +202,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549723568873" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549734672325" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -280,18 +265,49 @@
       <workItem from="1549570577465" duration="1594000" />
       <workItem from="1549654608637" duration="1275000" />
       <workItem from="1549705570377" duration="597000" />
-      <workItem from="1549711518390" duration="7627000" />
+      <workItem from="1549711518390" duration="12771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39241000" />
+    <option name="totallyTimeSpent" value="44385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21859436" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19645822" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27645788" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32937366" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32937366" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19645822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -310,38 +326,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21859436" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27645788" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32937366" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -378,13 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/whilelang/ast/SingleStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/whilelang/ast/Minus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -400,13 +378,6 @@
             <element signature="e#230#231#0" expanded="true" />
             <element signature="e#257#258#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/whilelang/ast/For.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -474,6 +445,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/whilelang/ast/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/whilelang/ast/IfThenElse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/whilelang/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/whilelang/progs/Programs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -486,29 +481,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/whilelang/ast/TreePrinter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="134" column="35" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/whilelang/ast/IfThenElse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/whilelang/ast/While.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="1230">
+          <caret line="122" column="32" lean-forward="true" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/whilelang/ast/Block.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -519,36 +500,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/whilelang/ast/Tree.java">
+    <entry file="file://$PROJECT_DIR$/src/whilelang/ast/For.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="75">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/whilelang/ast/SingleStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="49" lean-forward="true" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/whilelang/ast/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/whilelang/ast/While.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/whilelang/interp/TreeSimplifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="180">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/whilelang/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
           </folding>
         </state>
       </provider>

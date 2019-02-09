@@ -42,15 +42,23 @@ public class TreeSimplifier implements Visitor<Tree> {
     }
 
     public Tree visit(For n) {
-        n.init.accept(new TreeSimplifier());
+        Statement initStatement = (Statement)n.init.accept(new TreeSimplifier());
         ArrayList<Statement> newStatement = new ArrayList<>();
         newStatement.add(n.body);
         newStatement.add(n.step);
 
-        Block block = new Block(newStatement);
+        Statement statement = new Block(newStatement);
+        statement = (Statement)statement.accept(this);
+        While whileBlock = new While(n.expr, statement);
 
-        While whileBlock = new While(n.expr, block);
-        return whileBlock.accept(new TreeSimplifier());
+
+        ArrayList<Statement> allStatement = new ArrayList<>();
+        allStatement.add(initStatement);
+        allStatement.add(whileBlock);
+
+        Block allBlock = new Block(allStatement);
+
+        return allBlock;
     }
 
     public Tree visit(Var n) {
