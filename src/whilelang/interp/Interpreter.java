@@ -46,33 +46,37 @@ public class Interpreter implements Visitor<Integer>{
 	}
 
 	public Integer visit(IntLiteral n) {
-		// TODO Implement this!
-		return null;
+		return n.value;
 	}
 
 	public Integer visit(Plus n) {
-		// TODO Implement this!
-		return null;
+		Integer lhsValue = n.lhs.accept(new Interpreter());
+		Integer rhsValue = n.rhs.accept(new Interpreter());
+		return lhsValue + rhsValue;
 	}
 
 	public Integer visit(Minus n) {
-		// TODO Implement this!
-		return null;
+		Integer lhsValue = n.lhs.accept(new Interpreter());
+		Integer rhsValue = n.rhs.accept(new Interpreter());
+		return lhsValue - rhsValue;
 	}
 
 	public Integer visit(Times n) {
-		// TODO Implement this!
-		return null;
+		Integer lhsValue = n.lhs.accept(new Interpreter());
+		Integer rhsValue = n.rhs.accept(new Interpreter());
+		return lhsValue * rhsValue;
 	}
 
 	public Integer visit(Division n) {
-		// TODO Implement this!
-		return null;
+		Integer lhsValue = n.lhs.accept(new Interpreter());
+		Integer rhsValue = n.rhs.accept(new Interpreter());
+		return lhsValue / rhsValue;
 	}
 
 	public Integer visit(Modulo n) {
-		// TODO Implement this!
-		return null;
+		Integer lhsValue = n.lhs.accept(new Interpreter());
+		Integer rhsValue = n.rhs.accept(new Interpreter());
+		return lhsValue / rhsValue;
 	}
 
 	public Integer visit(Equals n) {

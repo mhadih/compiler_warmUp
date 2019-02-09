@@ -22,7 +22,7 @@ public class TreePrinter implements Visitor<String> {
 	public String visit( IntLiteral n) {
 		return Integer.toString(n.value);
 	}
-	
+
 	public String visit( Plus n) { 
 		return "(" + n.lhs.accept(this) + " + " + n.rhs.accept(this) + ")"; 
 	}
