@@ -11,6 +11,7 @@ public class TreeSimplifier implements Visitor<Tree> {
     }
 
     public Tree visit(Assign n) {
+
         // TODO Implement this!
         return n;
     }
@@ -61,81 +62,82 @@ public class TreeSimplifier implements Visitor<Tree> {
     }
 
     public Tree visit(Var n) {
+
         return n;
     }
 
     public Tree visit(IntLiteral n) {
-        // TODO Implement this!
+
         return n;
     }
 
     public Tree visit(Plus n) {
-        // TODO Implement this!
+
         return n;
     }
 
     public Tree visit(Minus n) {
-        // TODO Implement this!
+
         return n;
     }
 
     public Tree visit(Times n) {
-        // TODO Implement this!
+
         return n;
     }
 
     public Tree visit(Division n) {
-        // TODO Implement this!
+
         return n;
     }
 
     public Tree visit(Modulo n) {
-        // TODO Implement this!
+
         return n;
     }
 
     public Tree visit(Equals n) {
-        // TODO Implement this!
+
         return n;
     }
 
     public Tree visit(GreaterThan n) {
-        // TODO Implement this!
+
         return n;
     }
 
     public Tree visit(LessThan n) {
-        // TODO Implement this!
+
         return n;
     }
 
     public Tree visit(And n) {
-        // TODO Implement this!
+
         return n;
     }
 
     public Tree visit(Or n) {
-        // TODO Implement this!
+
         return n;
     }
 
     public Tree visit(Neg n) {
-        // TODO Implement this!
+
         return n;
     }
 
     public Tree visit(Not n) {
-        // TODO Implement this!
+
         return n;
     }
 
     public Tree visit(UnaryExpression n) {
-        // TODO Implement this!
+
         return null;
     }
 
     public Tree visit(BinaryExpression n) {
-        // TODO Implement this!
+
         return null;
     }
 }
