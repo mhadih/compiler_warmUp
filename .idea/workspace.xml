@@ -2,43 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e2c6d61-3f73-4553-a1d8-a59f82646f01" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/And.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/And.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Assign.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Assign.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/BinaryExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/BinaryExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Block.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Division.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Division.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Equals.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Equals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Expression.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Expression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/For.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/For.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/GreaterThan.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/GreaterThan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/IfThenElse.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/IfThenElse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/IntLiteral.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/IntLiteral.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/LessThan.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/LessThan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Minus.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Minus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Modulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Modulo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Neg.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Neg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Not.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Not.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Or.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Or.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Plus.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Plus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Print.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Print.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/SingleStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/SingleStatement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Skip.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Skip.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Statement.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Statement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Times.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Times.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Tree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/TreePrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/TreePrinter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/UnaryExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/UnaryExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Var.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Var.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/Visitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/While.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/ast/While.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/interp/Interpreter.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/interp/Interpreter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/interp/TreeSimplifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/interp/TreeSimplifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/progs/Programs.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PLC_Spring98_warmup_code/whilelang/progs/Programs.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/whilelang/interp/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/interp/Interpreter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/whilelang/interp/TreeSimplifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whilelang/interp/TreeSimplifier.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,12 +28,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/whilelang/interp/Interpreter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="588">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#363#364#0" expanded="true" />
                 <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#1191#1192#0" expanded="true" />
+                <element signature="e#1212#1213#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -202,7 +169,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549817742093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549819295133" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -267,12 +234,12 @@
       <workItem from="1549654608637" duration="1275000" />
       <workItem from="1549705570377" duration="597000" />
       <workItem from="1549711518390" duration="20802000" />
-      <workItem from="1549783710745" duration="12748000" />
+      <workItem from="1549783710745" duration="14049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65164000" />
+    <option name="totallyTimeSpent" value="66465000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,12 +516,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/whilelang/interp/Interpreter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="588">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#363#364#0" expanded="true" />
             <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
           </folding>
         </state>
       </provider>

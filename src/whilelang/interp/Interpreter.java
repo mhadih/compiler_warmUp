@@ -6,19 +6,16 @@ import java.util.HashMap;
 
 public class Interpreter implements Visitor<Integer>{
 
-	public HashMap<String, Integer> mapVar;
+	public HashMap<String, Integer> mapVar = new HashMap<>();
 
 	public Integer visit(Print n) {
-		System.out.println(n.msg + n.varID);
+		System.out.println(n.msg + mapVar.get(n.varID));
 		return null;
 	}
 
 	public Integer visit(Assign n) {
-		System.out.println("hadi");
 		Integer value = n.expr.accept(this);
-		System.out.println(value);
 		mapVar.put(n.varID, value);
-		System.out.println(4);
 		return value;
 	}
 
@@ -27,7 +24,6 @@ public class Interpreter implements Visitor<Integer>{
 	}
 
 	public Integer visit(Block n) {
-		System.out.println("Hadi");
 		for (Statement state : n.body)
 			state.accept(this);
 		return null;
@@ -43,7 +39,6 @@ public class Interpreter implements Visitor<Integer>{
 	}
 
 	public Integer visit(While n) {
-		System.out.println("Hadi");
 		while (n.expr.accept(this) == 1) {
 			n.body.accept(this);
 		}
@@ -66,7 +61,6 @@ public class Interpreter implements Visitor<Integer>{
 	}
 
 	public Integer visit(IntLiteral n) {
-		System.out.println(3);
 		return n.value;
 	}
 
