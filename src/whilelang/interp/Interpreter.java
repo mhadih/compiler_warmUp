@@ -113,9 +113,9 @@ public class Interpreter implements Visitor<Integer>{
 	public Integer visit(LessThan n) {
 		Integer lhsValue = n.lhs.accept(this);
 		Integer rhsValue = n.rhs.accept(this);
-		if(lhsValue > rhsValue)
-			return 0;
-		return 1;
+		if(lhsValue < rhsValue)
+			return 1;
+		return 0;
 	}
 
 	public Integer visit(And n) {
