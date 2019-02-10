@@ -2,51 +2,71 @@ package whilelang.interp;
 
 import whilelang.ast.*;
 
+import java.util.HashMap;
+
 public class Interpreter implements Visitor<Integer>{
 
+	public HashMap<String, Integer> mapVar;
+
 	public Integer visit(Print n) {
-		// TODO Implement this!
+		System.out.println(n.msg + n.varID);
 		return null;
 	}
 
 	public Integer visit(Assign n) {
-		// TODO Implement this!
-		return null;
+		System.out.println("hadi");
+		Integer value = n.expr.accept(this);
+		System.out.println(value);
+		mapVar.put(n.varID, value);
+		System.out.println(4);
+		return value;
 	}
 
 	public Integer visit(Skip n) {
-		// TODO Implement this!
 		return null;
 	}
 
 	public Integer visit(Block n) {
-		// TODO Implement this!
+		System.out.println("Hadi");
+		for (Statement state : n.body)
+			state.accept(this);
 		return null;
 	}
 
 	public Integer visit(IfThenElse n) {
-		// TODO Implement this!
+		Integer cond = n.expr.accept(this);
+		if (cond == 1)
+			n.then.accept(this);
+		else
+			n.elze.accept(this);
 		return null;
 	}
 
 	public Integer visit(While n) {
-
-		// TODO Implement this!
+		System.out.println("Hadi");
+		while (n.expr.accept(this) == 1) {
+			n.body.accept(this);
+		}
 		return null;
 	}
 
 	public Integer visit(For n) {
-		// TODO Implement this!
+		for (n.init.accept(this); (n.expr.accept(this) == 1); n.step.accept(this)) {
+			n.body.accept(this);
+		}
 		return null;
 	}
 
 
 	public Integer visit(Var n) {
-		// TODO Implement this!
-		return null;
+		if (!mapVar.containsKey(n.varID)) {
+			mapVar.put(n.varID, 0);
+		}
+		return mapVar.get(n.varID);
 	}
 
 	public Integer visit(IntLiteral n) {
+		System.out.println(3);
 		return n.value;
 	}
 
@@ -119,7 +139,7 @@ public class Interpreter implements Visitor<Integer>{
 		return result;
 	}
 
-	public Integer visit(Neg n){
+	public Integer visit(Neg n) {
 		Integer value = n.expr.accept(this);
 		return -value;
 	}
@@ -134,12 +154,11 @@ public class Interpreter implements Visitor<Integer>{
 
 	public Integer visit(UnaryExpression n) {
 
-		// TODO Implement this!
 		return null;
 	}
 
 	public Integer visit(BinaryExpression n) {
-		// TODO Implement this!
+
 		return null;
 	}
 }

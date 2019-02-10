@@ -30,13 +30,13 @@ public class TreeSimplifier implements Visitor<Tree> {
     }
 
     public Tree visit(IfThenElse n) {
-        n.then.accept(this);
-        n.elze.accept(this);
+       n.then = (Statement)n.then.accept(this);
+       n.elze = (Statement)n.elze.accept(this);
         return n;
     }
 
     public Tree visit(While n) {
-        n.expr = (Expression)n.expr.accept(this);
+//        n.expr = (Expression)n.expr.accept(this);
         n.body = (Statement)n.body.accept(this);
         return n;
     }
