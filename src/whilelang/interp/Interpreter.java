@@ -2,8 +2,7 @@ package whilelang.interp;
 
 import whilelang.ast.*;
 
-inimport javafx.util.Pair;
-import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Interpreter implements Visitor<Integer>{
 
