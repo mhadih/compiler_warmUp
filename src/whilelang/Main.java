@@ -26,10 +26,17 @@ class Main {
 		System.out.println(Programs.nested.accept(tp));
 		System.out.println("############## Program Nested After Simplification: ##############");
 		System.out.println(Programs.nested.accept(ts).accept(tp));
+
+        System.out.println("############## Program mySample: ##############");
+        System.out.println(Programs.newSample.accept(tp));
+        System.out.println("############## Program Nested After Simplification: ##############");
+        System.out.println(Programs.newSample.accept(ts).accept(tp));
     	// interpret
     	Visitor<Integer> ip = new Interpreter();
     	Programs.squares.accept(ip);
     	Programs.collatz.accept(ip);
     	Programs.sums.accept(ip);
+//    	Programs.nested.accept(ip);
+        Programs.newSample.accept(ip);
     }
 }

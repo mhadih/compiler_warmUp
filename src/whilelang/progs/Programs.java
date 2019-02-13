@@ -50,4 +50,16 @@ public class Programs {
                 )))
         )))));
 
+    public static Statement newSample = new Block ( new ArrayList<Statement>( Arrays.asList(
+            new For (new Assign ("i", new IntLiteral(0)),
+                    new LessThan( new Var("i"), new IntLiteral(10)),
+                    new Assign("i", new Plus( new Var("i"), new IntLiteral(1))),
+                    new IfThenElse( new Equals( new Modulo( new Var("i"), new IntLiteral(2)), new IntLiteral(0)),
+                            new For( new Assign ("j", new Var("i")),
+                                    new GreaterThan( new Var("j"), new IntLiteral(0)),
+                                    new Assign("j", new Plus( new Var("j"), new IntLiteral(2))),
+                                    new Print("j: ", "j")),
+                            new Skip())
+            ))));
+
 }
