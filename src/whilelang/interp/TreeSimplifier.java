@@ -12,12 +12,11 @@ public class TreeSimplifier implements Visitor<Tree> {
 
     public Tree visit(Assign n) {
 
-        // TODO Implement this!
         return n;
     }
 
     public Tree visit(Skip n) {
-        // TODO Implement this!
+        
         return n;
     }
 
