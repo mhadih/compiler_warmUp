@@ -9,6 +9,8 @@ public class Interpreter implements Visitor<Integer>{
 	public HashMap<String, Integer> mapVar = new HashMap<>();
 
 	public Integer visit(Print n) {
+
+		System.out.println(n.msg + mapVar.get(n.varID));
 		return null;
 	}
 

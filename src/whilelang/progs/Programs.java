@@ -1,8 +1,9 @@
 package whilelang.progs;
 
-import java.util.*;
-
 import whilelang.ast.*;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Programs {
 
@@ -57,7 +58,7 @@ public class Programs {
                     new IfThenElse( new Equals( new Modulo( new Var("i"), new IntLiteral(2)), new IntLiteral(0)),
                             new For( new Assign ("j", new Var("i")),
                                     new GreaterThan( new Var("j"), new IntLiteral(0)),
-                                    new Assign("j", new Plus( new Var("j"), new IntLiteral(2))),
+                                    new Assign("j", new Minus( new Var("j"), new IntLiteral(2))),
                                     new Print("j: ", "j")),
                             new Skip())
             ))));
